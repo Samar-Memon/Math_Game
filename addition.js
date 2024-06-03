@@ -63,7 +63,6 @@ const additionEasyValues = () => {
     } else{
         gameBar.style.transform = `scale(0)`;
         document.querySelector('.rightEle').innerHTML = right;
-        document.querySelector('.wrongEle').innerHTML = wrong;
         sweetAlert();
 
         startingArea.style.display = 'flex';
@@ -82,7 +81,6 @@ const additionNormalValues = () => {
     } else{
         gameBar.style.transform = `scale(0)`;
         document.querySelector('.rightEle').innerHTML = right;
-        document.querySelector('.wrongEle').innerHTML = wrong;
         sweetAlert();
 
         startingArea.style.display = 'flex';
@@ -100,7 +98,6 @@ const additionHardValues = () => {
     } else{
         gameBar.style.transform = `scale(0)`;
         document.querySelector('.rightEle').innerHTML = right;
-        document.querySelector('.wrongEle').innerHTML = wrong;
         sweetAlert();
 
         startingArea.style.display = 'flex';
@@ -118,7 +115,6 @@ const additionExtremeValues = () => {
     } else{
         gameBar.style.transform = `scale(0)`;
         document.querySelector('.rightEle').innerHTML = right;
-        document.querySelector('.wrongEle').innerHTML = wrong;
         sweetAlert();
 
         startingArea.style.display = 'flex';

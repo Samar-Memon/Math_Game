@@ -64,7 +64,6 @@ const multiplyEasyValues = () => {
     } else{
         gameBar.style.transform = `scale(0)`;
         document.querySelector('.rightEle').innerHTML = right;
-        document.querySelector('.wrongEle').innerHTML = wrong;
         sweetAlert();
         startingArea.style.display = 'flex';
         setTimeout(() => startingArea.style.transform = `scale(1)`, 300);
@@ -82,7 +81,6 @@ const multiplyNormalValues = () => {
     } else{
         gameBar.style.transform = `scale(0)`;
         document.querySelector('.rightEle').innerHTML = right;
-        document.querySelector('.wrongEle').innerHTML = wrong;
         sweetAlert();
         startingArea.style.display = 'flex';
         setTimeout(() => startingArea.style.transform = `scale(1)`, 300);
@@ -99,7 +97,6 @@ const multiplyHardValues = () => {
     } else{
         gameBar.style.transform = `scale(0)`;
         document.querySelector('.rightEle').innerHTML = right;
-        document.querySelector('.wrongEle').innerHTML = wrong;
         sweetAlert();
         startingArea.style.display = 'flex';
         setTimeout(() => startingArea.style.transform = `scale(1)`, 300);
@@ -116,7 +113,6 @@ const multiplyExtremeValues = () => {
     } else{
         gameBar.style.transform = `scale(0)`;
         document.querySelector('.rightEle').innerHTML = right;
-        document.querySelector('.wrongEle').innerHTML = wrong;
         sweetAlert();
         startingArea.style.display = 'flex';
         setTimeout(() => startingArea.style.transform = `scale(1)`, 300);
