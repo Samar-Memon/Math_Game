@@ -62,6 +62,8 @@ const divideEasyValues = () => {
         option3.textContent = allLevelDivideOperators[0][count].option3;
     } else{
         gameBar.style.transform = `scale(0)`;
+        document.querySelector('.rightEle').innerHTML = right;
+        document.querySelector('.wrongEle').innerHTML = wrong;
         sweetAlert();
 
         startingArea.style.display = 'flex';
@@ -79,6 +81,8 @@ const divideNormalValues = () => {
         option3.textContent = allLevelDivideOperators[1][count].option3;
     } else{
         gameBar.style.transform = `scale(0)`;
+        document.querySelector('.rightEle').innerHTML = right;
+        document.querySelector('.wrongEle').innerHTML = wrong;
         sweetAlert();
 
         startingArea.style.display = 'flex';
@@ -95,6 +99,8 @@ const divideHardValues = () => {
         option3.textContent = allLevelDivideOperators[2][count].option3;
     } else{
         gameBar.style.transform = `scale(0)`;
+        document.querySelector('.rightEle').innerHTML = right;
+        document.querySelector('.wrongEle').innerHTML = wrong;
         sweetAlert();
 
         startingArea.style.display = 'flex';
@@ -111,6 +117,8 @@ const divideExtremeValues = () => {
         option3.textContent = allLevelDivideOperators[3][count].option3;
     } else{
         gameBar.style.transform = `scale(0)`;
+        document.querySelector('.rightEle').innerHTML = right;
+        document.querySelector('.wrongEle').innerHTML = wrong;
         sweetAlert();
 
         startingArea.style.display = 'flex';

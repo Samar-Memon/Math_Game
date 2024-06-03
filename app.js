@@ -103,10 +103,7 @@ options.forEach((a) => {
                 a.style.background = '';
                 }, 300)
                 wrong++;
-            }
-
-            document.querySelector('.rightEle').innerHTML = right;
-            document.querySelector('.wrongEle').innerHTML = right;
+            } 
 
             count++;
 
